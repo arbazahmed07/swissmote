@@ -62,7 +62,7 @@ const AttendeeList = ({ eventId }) => {
         <p>No attendees yet.</p>
       )}
 
-      <button onClick={fetchAttendees}>Get Attendees</button>
+      {/* <button onClick={fetchAttendees}>Get Attendees</button> */}
     </div>
   );
 };
